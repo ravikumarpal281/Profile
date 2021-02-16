@@ -1,13 +1,15 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./components/NavBar";
+import { Container } from "react-bootstrap";
+import MainInfoPage from "./components/MainInfoPage";
 
 function App() {
   return (
-    <div>
+    <>
       <NavBar></NavBar>
-      <h1>Profile PAGE</h1>
-    </div>
+      <MainInfoPage></MainInfoPage>
+    </>
   );
 }
 
